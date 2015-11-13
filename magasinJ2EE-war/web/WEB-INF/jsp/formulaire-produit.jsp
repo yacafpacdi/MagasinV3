@@ -14,7 +14,7 @@
         <h1>completez :</h1>
         <div>
             <span class="erreur">${msgERR}</span>
-            <c:url value="Controleur" var="url" />
+            <c:url value="ControleurMV2" var="url" />
             <form method="POST"
                   action="${url}"
                   accept-charset="UTF-8"
@@ -44,7 +44,7 @@
         </div>
         <hr />
         <div>
-            <c:url value="Controleur?section=catalogue&action=voir" var="url01" />
+            <c:url value="ControleurMV2?section=catalogue&action=voir" var="url01" />
             <c:import url="${url01}" />
         </div>
         <c:import url="/WEB-INF/jsp/marges/footer.jsp" />

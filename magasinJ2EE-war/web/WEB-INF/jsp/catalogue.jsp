@@ -25,7 +25,7 @@
                             maxFractionDigits="2"  /> €</td>
                     <td>${p.qte}</td>
                     <td>
-                        <c:url var="url01" value="Controleur?section=panier&action=add&ref=${p.reference}" />
+                        <c:url var="url01" value="ControleurMV2?section=panier&action=add&ref=${p.reference}" />
                         <a href="${url01}">ajouter ${p.label} au panier</a>
                     </td>
                 </tr>
